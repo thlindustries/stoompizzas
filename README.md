@@ -58,7 +58,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js][nodejs].
+[Git](https://git-scm.com).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
 ### 🎲 Rodando o **Back End (servidor)**
