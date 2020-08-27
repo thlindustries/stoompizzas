@@ -1,44 +1,129 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img src="https://i.imgur.com/lg3LIwN.png" width="800"/>
+</h1>
 
-## Available Scripts
+<h4 align="center">
+	 Stoom Pizzas 🚀
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/thlindustries/stoompizzas">
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/tgmarinho/nlw1/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/thlindustries/stoompizzas?style=social">
+  </a>
+</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Sobre o projeto
 
-### `yarn build`
+📝 Stoom Pizzas - é um projeto desafiador entusiasta proposto pela empresa **stoom** em que um usário tem a possibilidade de montar sua pizza e juntar pontos de benfício.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Layout
 
-### `yarn eject`
+## Web
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <img alt="pizzas" title="#Fishboard" src="https://i.imgur.com/0hNjy2l.png" width="550px">
+  <img alt="pizzas" title="#Fishboard" src="https://i.imgur.com/30wdCvA.png" width="550px">
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Tecnologias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React][reactjs]
+- [TypeScript][typescript]
+- [JsonServer][jsonserver]
+
+
+## 🚀 Como executar o projeto
+
+💡Para o correto funcionamento do app web é necessário que o servidor backend esteja rodando.
+
+### 🎲 **Back End (servidor)**
+- Para o cumprimento dos requisitos foi utilizado uma Lib chamada <h3>**JSON SERVER**</h3>, onde um arquivo JSON funciona como se fosse um servidor/banco de dados.
+
+- As informações sobre os **dados** que a API está servindo podem ser encontradas na pasta: <h3>**services/server.json**</h3>
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs].
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+
+### 🎲 Rodando o **Back End (servidor)**
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/thlindustries/stoompizzas
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd stoompizzas
+
+# Instale as dependências
+$ yarn
+
+# Execute o servidor fake
+$ yarn server
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333
+```
+
+### 📱Rodando a aplicação **WEB**
+
+
+```bash
+# Acesse a pasta do projeto web
+$ cd stoompizzas
+
+# Instale as dependências
+$ yarn
+
+# Inicie o servidor
+$ yarn start
+
+# Entre em > http://localhost:3000 <
+
+```
+
+## 😯 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+
+
+## 👥 Contribuidores
+- Thiago Lorente Kraetzer ->
+  <img alt="Made by Thlindustries" src="https://img.shields.io/github/followers/thlindustries?style=social">
+
+
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT.
+
+Feito com ❤️ por Thiago Lorente Kraetzer 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thiago-kraetzer/)
+
+[nodejs]: https://nodejs.org/
+[typescript]: https://www.typescriptlang.org/
+[jsonserver]: https://github.com/typicode/json-server
+[reactjs]: https://reactjs.org
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[license]: https://opensource.org/licenses/MIT
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[rs]: https://rocketseat.com.br
