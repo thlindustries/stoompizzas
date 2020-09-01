@@ -92,9 +92,13 @@ $ cd stoompizzas
 
 # Instale as dependências
 $ yarn
+ou
+$ npm i 
 
 # Inicie o servidor
 $ yarn start
+ou
+$ npm start
 
 # Entre em > http://localhost:3000 <
 
