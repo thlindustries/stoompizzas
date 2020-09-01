@@ -71,10 +71,14 @@ $ git clone https://github.com/thlindustries/stoompizzas
 $ cd stoompizzas
 
 # Instale as dependências
-$ yarn
+$ yarn 
+ou
+$ npm i 
 
 # Execute o servidor fake
 $ yarn server
+ou
+$ npx json-server src/services/server.json --port 3333 
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333
 ```
